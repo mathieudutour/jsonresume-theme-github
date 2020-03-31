@@ -47,9 +47,8 @@
       "endDate": "2019-08-31",
       "summary": "Devised and implemented a plan to improve the plugin ecosystem of Sketch (leading UI design tool). That involved everything from writing an API, developer tools, documentation and tutorials to speaking to conferences and creating plugin examples",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Built an stable API which allow plugins to work across multiple Sketch versions",
+        "Created a bunch of internal tools for the QA team and CS team"
       ],
       "pinned": true
     },
