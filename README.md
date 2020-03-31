@@ -39,13 +39,11 @@ Create a new repository with 2 files:
         # build the resume
         - run: ./node_modules/.bin/resume export public/index.html --theme github
 
-        # deploy on the gh-pages branch
-        - name: Publish
-          uses: JamesIves/github-pages-deploy-action@releases/v3
+        - name: Deploy
+          uses: peaceiris/actions-gh-pages@v3
           with:
-            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-            BRANCH: gh-pages
-            FOLDER: public
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./public
   ```
 
 ## License
