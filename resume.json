@@ -1,0 +1,188 @@
+{
+  "basics": {
+    "name": "Mathieu Dutour",
+    "label": "Software Engineer",
+    "image": "https://avatars0.githubusercontent.com/u/3254314?s=460&v=4",
+    "email": "mathieu@dutour.me",
+    "url": "https://mathieu.dutour.me",
+    "summary": "Build things. Nomad.",
+    "location": {
+      "city": "Lyon",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mathieudutour",
+        "url": "https://www.linkedin.com/in/mathieudutour/"
+      },
+      {
+        "network": "Twitter",
+        "username": "mathieudutour",
+        "url": "https://twitter.com/mathieudutour"
+      },
+      {
+        "network": "GitHub",
+        "username": "mathieudutour",
+        "url": "https://github.com/mathieudutour"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Sketch",
+      "position": "Developer Platform Software Engineer",
+      "location": "Remote",
+      "description": "Digital design software company",
+      "url": "https://sketch.com",
+      "startDate": "2017-10-01",
+      "endDate": "2019-08-31",
+      "summary": "Devised and implemented a plan to improve the plugin ecosystem of Sketch (leading UI design tool). That involved everything from writing an API, developer tools, documentation and tutorials to speaking to conferences and creating plugin examples",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Enki",
+      "position": "First Employee & Dev lead",
+      "location": "London, UK",
+      "description": "Repetition learning app for developers",
+      "url": "https://enki.com",
+      "startDate": "2015-04-01",
+      "endDate": "2017-09-31",
+      "summary": "Developed the application but also set up the infrastructure and the Continuous Integration / Deployment system",
+      "highlights": [
+        "Took the React application from 100 to 200,000 users",
+        "Managed a team of 5 other developers"
+      ],
+      "pinned": true
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "codebar",
+      "position": "Coach",
+      "url": "https://codebar.io/",
+      "startDate": "2016-01-01",
+      "endDate": "2016-01-01",
+      "summary": "Non-profit initiative that facilitates the growth of a diverse tech community by running regular programming workshops"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cranfield University",
+      "area": "Software Engineering & Technical Computing",
+      "studyType": "Master of Science",
+      "startDate": "2014-09-01",
+      "endDate": "2015-04-01"
+    },
+    {
+      "institution": "École Centrale de Lille",
+      "area": "General Engineering Sciences",
+      "studyType": "Engineering Diploma",
+      "startDate": "2011-09-01",
+      "endDate": "2015-04-01"
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Design engineers",
+      "releaseDate": "2018-12-18",
+      "url": "https://mathieu.dutour.me/blog/Design-engineers/",
+      "summary": "In the last couple of decades, “people who code” went from “developers” to “software engineers”, and in the next couple of decades, “designers” will become “design engineers” in a similar fashion",
+      "pinned": true
+    },
+    {
+      "name": "Yes, Designers can use git too!",
+      "releaseDate": "2016-03-09",
+      "url": "https://mathieu.dutour.me/blog/Yes-Designers-can-use-git-too/",
+      "summary": "How to go from a messy Dropbox folder to a modern collaborative workflow using git",
+      "pinned": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": ["Mpeg", "MP4", "GIF"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Timelense",
+      "description": "Capture and share moments in a meaningful, personal way with Timelense: the postcard that comes to life with a sprinkle of magic (and a touch of AR)",
+      "startDate": "2020-02-01",
+      "endDate": "2020-02-01",
+      "url": "https://timelense.app",
+      "type": "application"
+    },
+    {
+      "name": "Medium to Own Blog",
+      "description": "Switch from Medium to your own blog in a few minutes.",
+      "startDate": "2019-06-24",
+      "endDate": "2019-06-24",
+      "url": "https://github.com/mathieudutour/medium-to-own-blog",
+      "type": "CLI",
+      "entity": "Open Source",
+      "highlights": [
+        "Mentioned on vice.com (https://www.vice.com/en_us/article/mb85ap/this-tool-lets-you-easily-dump-medium-for-a-personal-blog)"
+      ]
+    },
+    {
+      "name": "Slacking Pigeon",
+      "description": "Lets chat in real time with your users directly from Slack. No need for another tool, everybody can jump in to answer a question.",
+      "startDate": "2017-09-24",
+      "endDate": "2017-09-24",
+      "url": "https://github.com/mathieudutour/slacking-pigeons",
+      "type": "Slack Bot",
+      "entity": "Open Source"
+    },
+    {
+      "name": "Kactus",
+      "description": "Version Control for designers, allowing the same engineering workflow as developers, on the same platform",
+      "startDate": "2017-06-24",
+      "endDate": "2017-06-24",
+      "url": "https://kactus.io",
+      "type": "application",
+      "entity": "Open Source",
+      "pinned": true
+    },
+    {
+      "name": "Skpm",
+      "description": "Command line tool to streamline the Sketch plugin developer experience",
+      "highlights": ["Now the official tool for plugin developers"],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://skpm.io",
+      "type": "cli",
+      "entity": "Open Source",
+      "pinned": true
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

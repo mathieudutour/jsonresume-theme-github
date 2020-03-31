@@ -1,0 +1,24 @@
+{
+  "name": "jsonresume-theme-github",
+  "version": "0.0.1",
+  "description": "A theme for JSON Resume",
+  "author": "Mathieu Dutour",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mathieudutour/jsonresume-theme-github"
+  },
+  "scripts": {
+    "start": "resume serve",
+    "build": "mkdir -p public && resume export public/index.html --theme \"$(pwd)\""
+  },
+  "dependencies": {
+    "@primer/css": "^14.3.0",
+    "handlebars": "^4.7.3",
+    "html-minifier": "^4.0.0",
+    "sass": "^1.26.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "resume-cli": "^1.2.7"
+  }
+}
