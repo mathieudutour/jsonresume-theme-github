@@ -30,6 +30,14 @@
   },
   "work": [
     {
+      "name": "Lona",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "url": "https://lona.design",
+      "startDate": "2019-12-01",
+      "summary": "A collection of tools for building design systems and using them to generate cross-platform UI code, Sketch files, and other artifacts"
+    },
+    {
       "name": "Sketch",
       "position": "Developer Platform Software Engineer",
       "location": "Remote",
