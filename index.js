@@ -57,7 +57,7 @@ function render(resume) {
 }
 
 Handlebars.registerHelper("findByProperty", (context, prop, value, options) => {
-  const match = context.find(x => x[prop] === value);
+  const match = (context || []).find(x => x[prop] === value);
 
   if (match) {
     return options.fn(match);
@@ -67,7 +67,7 @@ Handlebars.registerHelper("findByProperty", (context, prop, value, options) => {
 });
 
 Handlebars.registerHelper("isPropEqual", (context, prop, value, options) => {
-  if (context[prop] == value) {
+  if ((context || {})[prop] == value) {
     return options.fn(context);
   } else {
     return options.inverse(context);
@@ -79,7 +79,7 @@ Handlebars.registerHelper("randomColor", () => {
 });
 
 Handlebars.registerHelper("pinnedExperiences", (resume, options) => {
-  const pinned = resume.work
+  const pinned = (resume.work || [])
     .filter(x => x.pinned)
     .map(x => ({
       name: x.position,
@@ -91,7 +91,7 @@ Handlebars.registerHelper("pinnedExperiences", (resume, options) => {
       color: "#2188ff"
     }))
     .concat(
-      resume.awards
+      (resume.awards || [])
         .filter(x => x.pinned)
         .map(x => ({
           name: x.title,
@@ -104,7 +104,7 @@ Handlebars.registerHelper("pinnedExperiences", (resume, options) => {
         }))
     )
     .concat(
-      resume.projects
+      (resume.projects || [])
         .filter(x => x.pinned)
         .map(x => ({
           name: x.name,
@@ -117,7 +117,7 @@ Handlebars.registerHelper("pinnedExperiences", (resume, options) => {
         }))
     )
     .concat(
-      resume.education
+      (resume.education || [])
         .filter(x => x.pinned)
         .map(x => ({
           name: `${x.studyType} · ${x.area}`,
@@ -130,7 +130,7 @@ Handlebars.registerHelper("pinnedExperiences", (resume, options) => {
         }))
     )
     .concat(
-      resume.volunteer
+      (resume.volunteer || [])
         .filter(x => x.pinned)
         .map(x => ({
           name: x.position,
@@ -159,7 +159,7 @@ Handlebars.registerHelper("pinnedExperiences", (resume, options) => {
 });
 
 Handlebars.registerHelper("pinnedWrittings", (resume, options) => {
-  const pinned = resume.publications
+  const pinned = (resume.publications || [])
     .filter(x => x.pinned)
     .map(x => ({
       name: x.name,
@@ -187,7 +187,7 @@ Handlebars.registerHelper("pinnedWrittings", (resume, options) => {
 });
 
 function getExperiences(resume) {
-  return resume.work
+  return (resume.work || [])
     .filter(x => x.startDate)
     .map(x => ({
       ...x,
@@ -200,7 +200,7 @@ function getExperiences(resume) {
       color: "#2188ff"
     }))
     .concat(
-      resume.awards
+      (resume.awards || [])
         .filter(x => x.date)
         .map(x => ({
           ...x,
@@ -214,7 +214,7 @@ function getExperiences(resume) {
         }))
     )
     .concat(
-      resume.projects
+      (resume.projects || [])
         .filter(x => x.startDate)
         .map(x => ({
           ...x,
@@ -228,7 +228,7 @@ function getExperiences(resume) {
         }))
     )
     .concat(
-      resume.education
+      (resume.education || [])
         .filter(x => x.endDate)
         .map(x => ({
           ...x,
@@ -242,7 +242,7 @@ function getExperiences(resume) {
         }))
     )
     .concat(
-      resume.volunteer
+      (resume.volunteer || [])
         .filter(x => x.startDate)
         .map(x => ({
           ...x,
