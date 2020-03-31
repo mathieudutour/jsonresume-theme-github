@@ -106,14 +106,21 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "JavaScript",
       "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "keywords": ["NodeJS", "React"]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": ["Mpeg", "MP4", "GIF"]
+      "name": "HTML / CSS",
+      "level": "Master"
+    },
+    {
+      "name": "Swift",
+      "level": "Master"
+    },
+    {
+      "name": "AWS",
+      "level": "Master"
     }
   ],
   "languages": [

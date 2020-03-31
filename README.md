@@ -12,6 +12,9 @@ The theme can be previewed at [https://mathieudutour.github.io/jsonresume-theme-
 
 Checkout [https://jsonresume.org/getting-started/](https://jsonresume.org/getting-started/).
 
+There are some addition to the JSON Resume schema in order to control the "pinned" stuff.
+You can add `"pinned": true` to any `work`, `volunteer`, `award`, `publications`, `education`, or `projects`.
+
 ### Automatically publish your resume
 
 Create a new repository with 2 files:
