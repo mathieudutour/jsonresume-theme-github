@@ -2,7 +2,7 @@
 
 A JSON Resume theme looking like a GitHub profile.
 
-_Inspired by [@nataliemarleny](https://twitter.com/nataliemarleny). Build using [Primer](https://primer.style/css)._
+_Inspired by [@nataliemarleny](https://twitter.com/nataliemarleny). Built using [Primer](https://primer.style/css)._
 
 ## Preview
 
