@@ -36,11 +36,11 @@ Create a new repository with 2 files:
         - uses: actions/checkout@v1
         - uses: actions/setup-node@v1
 
-        # install the dependencies
-        - run: npm install resume-cli jsonresume-theme-github
+        - name: Install the dependencies
+          run: npm install resume-cli jsonresume-theme-github
 
-        # build the resume
-        - run: ./node_modules/.bin/resume export public/index.html --theme github
+        - name: Build the resume
+          run: ./node_modules/.bin/resume export public/index.html --theme github
 
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v3
