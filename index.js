@@ -158,7 +158,7 @@ Handlebars.registerHelper("pinnedExperiences", (resume, options) => {
   return pre + pinned.map(options.fn).join("\n") + post;
 });
 
-Handlebars.registerHelper("pinnedWrittings", (resume, options) => {
+Handlebars.registerHelper("pinnedWritings", (resume, options) => {
   const pinned = (resume.publications || [])
     .filter(x => x.pinned)
     .map(x => ({
@@ -177,7 +177,7 @@ Handlebars.registerHelper("pinnedWrittings", (resume, options) => {
 
   const pre = `<section class="mt-4" aria-labelledby="writing">
   <h2 id="writing" class="f4 mb-2 text-normal">
-    Pinned Writting
+    Pinned Writing
   </h2>
   <ul class="d-flex flex-wrap list-style-none mb-4 gutter-condensed">`;
   const post = `  </ul>
