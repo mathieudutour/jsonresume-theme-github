@@ -19,6 +19,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "resume-cli": "^1.2.7"
+    "resume-cli": "^3.0.8"
   }
 }
